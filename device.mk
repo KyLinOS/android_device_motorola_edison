@@ -41,6 +41,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_FOLDER)/root/init.mapphone.rc:root/init.mapphone_umts.rc \
     $(DEVICE_FOLDER)/root/init.mapphone.rc:root/init.mapphone_cdma.rc \
+    $(DEVICE_FOLDER)/root/init.target.rc:root/init.target.rc \
     $(DEVICE_FOLDER)/root/init.rc:root/init.rc \
     $(DEVICE_FOLDER)/root/init:root/init \
     $(DEVICE_FOLDER)/root/ueventd.rc:root/ueventd.rc \
@@ -58,4 +59,3 @@ $(call inherit-product-if-exists, vendor/motorola/edison/edison-vendor.mk)
 $(call inherit-product-if-exists, vendor/motorola/edison/edison-vendor-stock-camera.mk)
 $(call inherit-product-if-exists, vendor/motorola/edison/edison-vendor-stock-ducati.mk)
 $(call inherit-product-if-exists, vendor/motorola/omap4-common/common-vendor-pvr.mk)
-
