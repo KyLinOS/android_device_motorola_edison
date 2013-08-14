@@ -1,13 +1,22 @@
 [
   {
-    "repository": "KyLinOS/android_kernel_motorola_omap4-common",
-    "target_path": "kernel/motorola/omap4-common",
+    "repository": "android_device_motorola_omap4-common",
+    "target_path": "device/motorola/omap4-common"
     "branch": "jb-mr1"
   },
   {
-    "repository": "KyLinOS/android_vendor_motorola_edison",
+    "repository": "android_vendor_motorola_omap4-common",
+    "target_path": "vendor/motorola/omap4-common"
+    "branch": "jb-mr1"
+  },
+  {
+    "repository": "android_vendor_motorola_edison",
     "target_path": "vendor/motorola/edison",
+    "branch": "jb-mr1"
+  },
+  {
+    "repository": "android_kernel_motorola_omap4-common",
+    "target_path": "kernel/motorola/omap4-common",
     "branch": "jb-mr1"
   }
 ]
-
